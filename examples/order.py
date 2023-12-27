@@ -10,6 +10,7 @@ pm.generate_session("your_request_token")
 pm.set_access_token("your_access_token")
 pm.set_public_access_token("your_public_access_token")
 pm.set_read_access_token("your_read_access_token")
+pm.
 try:
     res = pm.place_order(
         txn_type="S",
